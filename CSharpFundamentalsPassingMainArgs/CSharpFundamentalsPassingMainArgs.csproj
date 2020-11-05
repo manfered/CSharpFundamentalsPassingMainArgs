@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Farzad (Fred) Seifi</Authors>
   </PropertyGroup>
 
 </Project>

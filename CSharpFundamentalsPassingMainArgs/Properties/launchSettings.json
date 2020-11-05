@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharpFundamentalsPassingMainArgs": {
+      "commandName": "Project",
+      "commandLineArgs": "Farzad Seifi"
+    }
+  }
+}

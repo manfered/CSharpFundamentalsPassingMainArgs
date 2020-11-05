@@ -6,7 +6,18 @@ namespace CSharpFundamentalsPassingMainArgs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // passing args by command line will be done by 
+            // 1. dotnet run -- arg1 arg2 etc
+            // 2. or by right click on project, at Debug section by providing Application Arguments.
+            // 3. or at launchSettings.json file ( this file will be automatically generated after defining Application Arguments ).
+            if (args.Length > 1)
+            {
+                Console.WriteLine($"Hello, {args[0]} {args[1]}");
+            }
+            else
+            {
+                Console.WriteLine("Hello World!");
+            }
         }
     }
 }
